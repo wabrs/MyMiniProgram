@@ -47,7 +47,7 @@ Page({
   },
 
   onGetOpenid: function() {
-    // 调用云函数
+    // 调用云函数22
     wx.cloud.callFunction({
       name: 'login',
       data: {},
